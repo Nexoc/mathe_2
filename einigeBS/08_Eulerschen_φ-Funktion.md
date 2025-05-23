@@ -1,6 +1,6 @@
 ### Definition der Eulerschen φ-Funktion
 
-Die **Eulersche φ-Funktion** \( \varphi(m) \) ist **die Anzahl der natürlichen Zahlen von 1 bis \( m - 1 \)**,  
+Die **Eulersche φ-Funktion**  ist **die Anzahl der natürlichen Zahlen von 1 bis \( m - 1 \)**,  
 die **zu \( m \) teilerfremd** sind – also solcher Zahlen \( a \), für die gilt:
 
     ggT(a, m) = 1
