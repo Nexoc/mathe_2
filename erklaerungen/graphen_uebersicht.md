@@ -55,7 +55,7 @@ Nachbarschaft von \( u \):
 ## 🔹 Händedruck-Lemma
 
 \[
-\sum_{v∈V} \deg(v) = 2m
+sum {v∈V} deg(v) = 2m
 \]
 
 Die Summe aller Knotengrade = 2× Anzahl der Kanten.
@@ -77,13 +77,13 @@ Die Summe aller Knotengrade = 2× Anzahl der Kanten.
 
 - **Zusammenhängender ungerichteter Graph**:  
   Für alle \( u, v ∈ V \) existiert ein Pfad zwischen ihnen
+  
 
 - **Zusammenhangskomponente**: maximaler zusammenhängender Teilgraph
 
 - **Gerichteter Graph**:
-  - **Stark zusammenhängend**: Pfad von \( u \to v \) und \( v \to u \)
-  - **Schwach zusammenhängend**: Zusammenhang nach Entfernen der Richtungen
-
+    - stark zusammenhängend, wenn es für jedes Paar u,v einen gerichteten Pfad von u nach v und zurück gibt.
+    - schwach zusammenhängend, wenn man alle Kanten als ungerichtet betrachtet und der resultierende Graph zusammenhängend ist.
 ---
 
 ## 🌲 Bäume (ungerichtet & gerichtet)
