@@ -1,5 +1,16 @@
 # ⚙️ Algebraische Strukturen und Eigenschaften von Operationen
 
+
+![alt text](./img/Algebraisch.png)
+
+## 🔗 Struktur-Einschlusskette
+
+```
+Halbgruppe ⊂ Monoid ⊂ Gruppe ⊂ Kommutative Gruppe
+
+Ring ⊂ Kommutativer Ring ⊂ Ring mit Einselement ⊂ Integritätsbereich ⊂ Körper
+```
+
 ## 📌 Eigenschaften von Operationen
 
 **1. Assoziativität**  
@@ -70,13 +81,5 @@
 
 ---
 
-## 🔗 Struktur-Einschlusskette
 
-```
-
-Halbgruppe ⊂ Monoid ⊂ Gruppe ⊂ Kommutative Gruppe
-
-Ring ⊂ Kommutativer Ring ⊂ Ring mit Einselement ⊂ Integritätsbereich ⊂ Körper
-
-```
 
