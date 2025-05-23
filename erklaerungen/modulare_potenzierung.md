@@ -74,3 +74,6 @@ Jetzt Schritt für Schritt:
 
 Funktioniert ✔
 
+
+
+![alt text](./img/pot.png)
