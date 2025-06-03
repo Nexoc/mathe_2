@@ -1,3 +1,38 @@
+
+## Beispiel: Gruppe mit 4 Elementen in ℤ₅⁎
+
+### Menge: `{1, 2, 3, 4}` ⊂ ℤ₅  
+### Operation: Multiplikation modulo 5
+
+Dies ist eine **Gruppe**, weil:
+
+- Sie enthält **nur Zahlen ≠ 0**
+- Sie ist **abgeschlossen** unter `* mod 5`
+- Es gibt ein **neutrales Element**: `1`
+- Jedes Element hat ein **inverses**:
+
+| Element | Inverses (mod 5) |
+|---------|------------------|
+| 1       | 1                |
+| 2       | 3 (2×3 = 6 ≡ 1)  |
+| 3       | 2                |
+| 4       | 4 (4×4 = 16 ≡ 1) |
+
+---
+
+### 🔢 Operationstafel (mod 5):
+
+| * mod 5 | 1 | 2 | 3 | 4 |
+|---------|---|---|---|---|
+| **1**   | 1 | 2 | 3 | 4 |
+| **2**   | 2 | 4 | 1 | 3 |
+| **3**   | 3 | 1 | 4 | 2 |
+| **4**   | 4 | 3 | 2 | 1 |
+
+---
+
+✅ Damit ist `{1, 2, 3, 4}` unter `* mod 5` eine **endliche Gruppe mit 4 Elementen**
+
 ## 🔹 1. **Halbgruppe (полугруппа)**
 
 **Условие:** Ассоциативность $(a + b) + c = a + (b + c)$
