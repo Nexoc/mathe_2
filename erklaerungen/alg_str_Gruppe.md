@@ -1,7 +1,7 @@
 
 ## Beispiel: Gruppe mit 4 Elementen in ℤ₅⁎
 
-### Menge: `{1, 2, 3, 4}` ⊂ ℤ₅  
+### Menge: `{1, 2, 3, 4}` ⊂ ℤ₅
 ### Operation: Multiplikation modulo 5
 
 Dies ist eine **Gruppe**, weil:
