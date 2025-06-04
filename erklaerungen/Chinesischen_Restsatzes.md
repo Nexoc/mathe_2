@@ -1,6 +1,28 @@
 ## Chinesischer Restsatz
 
-### Problemstellung
+![alt text](image-4.png)
+
+- M = 7 + 10 = 17
+
+- M1 = 17/7
+-  M2 = 17/10
+---
+- y1 = 17/7 * a1 = 1 mod(7) ищем а1
+- y2 = 17/10* a2 = 2 mod (10) ищем а2
+---
+- a1 * M1 * y1
+
+- 2 * 17/7 * y1
+- 6 * 17/10 * y2
+---
+- сумма их
+- x = a1 * M1 * y1 + 6 *  17/10 * y2
+
+- x = gefundeneZahl mod(17)
+
+
+
+#### Problemstellung
 
 Gegeben ist ein System von Kongruenzen:
 
@@ -20,7 +42,7 @@ Dann existiert genau **eine Lösung modulo M**, wobei:
 M = m₁ × m₂ × ... × mₖ
 ```
 
-## Beispiel
+### Beispiel
 
 Finde `x` mit:
 
@@ -32,7 +54,7 @@ x ≡ 2 mod 5
 
 ---
 
-###  Rechenschritte
+####  Rechenschritte
 
 | Bezeichnung | Rechnung  | Ergebnis |
 | ----------- | --------- | -------- |
@@ -55,7 +77,7 @@ Mᵢ × yᵢ ≡ 1 mod mᵢ
 
 ---
 
-### Endformel:
+#### Endformel:
 
 ```text
 x ≡ a₁·M₁·y₁ + a₂·M₂·y₂ + a₃·M₃·y₃ mod M
@@ -66,7 +88,7 @@ x ≡ 287 mod 60 = 47
 
 ---
 
-### Ergebnis
+#### Ergebnis
 
 ```text
 x ≡ 47 mod 60
